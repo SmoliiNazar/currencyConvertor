@@ -1,9 +1,12 @@
 import './App.scss';
-import Currency from '../currency/Currency';
+import Currency from '../header/Currency';
+import Promo from '../promo/Promo';
+
 function App() {
     return (
         <>
             <Currency/>
+            <Promo/>
         </>
     )
 }
