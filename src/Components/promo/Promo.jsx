@@ -8,22 +8,22 @@ const Promo = () => {
                         <form>
                             <h1>Конвертер валют</h1>
                             
-                            <div class="row mb-1">
-                                <div class="col">
-                                    <label for="name">Ви віддаєте:</label>
+                            <div className="row mb-1">
+                                <div className="col">
+                                    <label htmlFor="name">Ви віддаєте:</label>
                                     <select
                                         disabled
-                                        class="form-control"
+                                        className="form-control"
                                         id="exampleFormControlSelect1"
                                     >   
                                         <option value="USD">USD — Доллар США</option>
                                     </select>
                                 </div>
-                                <div class="col">
-                                    <label for="name">Получаю:</label>
+                                <div className="col">
+                                    <label htmlFor="name">Получаю:</label>
                                     <select
                                         id="select"
-                                        class="form-control"
+                                        className="form-control"
                                     >
                                         <option value="UAN">UAN — Гривні</option>
                                         <option value="EUR">EUR — Евро</option>
@@ -31,38 +31,38 @@ const Promo = () => {
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col">
+                            <div className="row">
+                                <div className="col">
                                     <input
                                         id="input"
                                         type="number"
-                                        class="form-control"
-                                        autofocus
+                                        className="form-control"
+                                        autoFocus
                                     />
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <input
                                         id="result"
                                         type="number"
-                                        class="form-control"
+                                        className="form-control"
                                     />
                                 </div>
                             </div>
 
-                            <div class="row mb-1">
-                                <div class="col">
+                            <div className="row mb-1">
+                                <div className="col">
                                     <select
                                         disabled
-                                        class="form-control"
+                                        className="form-control"
                                         id="exampleFormControlSelect1"
                                     >   
                                         <option value="EUR">EUR — Євро</option>
                                     </select>
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <select
                                         id="select"
-                                        class="form-control"
+                                        className="form-control"
                                     >
                                         <option value="USD">USD — Доллар США</option>
                                         <option value="UAN">UAN — Гривні</option>
@@ -70,38 +70,38 @@ const Promo = () => {
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col">
+                            <div className="row">
+                                <div className="col">
                                     <input
                                         id="input"
                                         type="number"
-                                        class="form-control"
-                                        autofocus
+                                        className="form-control"
+                                        autoFocus
                                     />
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <input
                                         id="result"
                                         type="number"
-                                        class="form-control"
+                                        className="form-control"
                                     />
                                 </div>
                             </div>
 
-                            <div class="row mb-1">
-                                <div class="col">
+                            <div className="row mb-1">
+                                <div className="col">
                                     <select
                                         disabled
-                                        class="form-control"
+                                        className="form-control"
                                         id="exampleFormControlSelect1"
                                     >   
                                         <option value="UAN">UAN — Гривні</option>
                                     </select>
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <select
                                         id="select"
-                                        class="form-control"
+                                        className="form-control"
                                     >
                                         <option value="EUR">EUR — Евро</option>
                                         <option value="USD">USD — Доллар США</option>
@@ -109,20 +109,20 @@ const Promo = () => {
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col">
+                            <div className="row">
+                                <div className="col">
                                     <input
                                         id="input"
                                         type="number"
-                                        class="form-control"
-                                        autofocus
+                                        className="form-control"
+                                        autoFocus
                                     />
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <input
                                         id="result"
                                         type="number"
-                                        class="form-control"
+                                        className="form-control"
                                     />
                                 </div>
                             </div>
