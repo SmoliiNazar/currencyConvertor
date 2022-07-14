@@ -1,6 +1,7 @@
 import './promo.scss';
 
 const Promo = () => {
+    
     return (
         <div className="Promo">
             <div className="container">
@@ -37,7 +38,6 @@ const Promo = () => {
                                         id="input"
                                         type="number"
                                         className="form-control"
-                                        autoFocus
                                     />
                                 </div>
                                 <div className="col">
@@ -76,7 +76,6 @@ const Promo = () => {
                                         id="input"
                                         type="number"
                                         className="form-control"
-                                        autoFocus
                                     />
                                 </div>
                                 <div className="col">
@@ -115,7 +114,6 @@ const Promo = () => {
                                         id="input"
                                         type="number"
                                         className="form-control"
-                                        autoFocus
                                     />
                                 </div>
                                 <div className="col">
